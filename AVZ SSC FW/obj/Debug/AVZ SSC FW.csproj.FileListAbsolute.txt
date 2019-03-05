@@ -1,0 +1,24 @@
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ SSC FW.csprojAssemblyReference.cache
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.About.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.Main.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ SSC FW.csproj.GenerateResource.cache
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ SSC FW.csproj.CoreCompileInputs.cache
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.Settings.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.AddNew.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\bin\Debug\AVZ Server Status Control.exe.config
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\bin\Debug\AVZ Server Status Control.exe.manifest
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\bin\Debug\AVZ Server Status Control.application
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\bin\Debug\AVZ Server Status Control.exe
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\bin\Debug\AVZ Server Status Control.pdb
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ Server Status Control.exe.manifest
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ Server Status Control.application
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ Server Status Control.exe
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ Server Status Control.pdb
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.Properties.Resources.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.Info.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.AddGroupNew.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.DeleteGroup.resources
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\Interop.Office.dll
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\Interop.otkloadr.dll
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ SSC FW.csproj.ResolveComReference.cache
+C:\Users\usov.ia\source\repos\AVZ SSC FW\AVZ SSC FW\obj\Debug\AVZ_SSC_FW.DiagramForOneHost.resources

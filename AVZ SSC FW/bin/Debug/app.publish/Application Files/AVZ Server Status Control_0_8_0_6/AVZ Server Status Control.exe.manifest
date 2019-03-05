@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AVZ Server Status Control.exe" version="0.8.0.6" publicKeyToken="40b90e4451e7dc9e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\AVZ_SSC_normal.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AVZ Server Status Control" version="0.8.0.1" publicKeyToken="F728114EA5E8F3A7" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AVZ Server Status Control.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень контроля учетных записей Windows замените узел 
+          requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Если вы хотите использовать виртуализацию файлов и реестра для обратной 
+         совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AVZ Server Status Control.exe" size="282560">
+      <assemblyIdentity name="AVZ Server Status Control" version="0.8.0.1" publicKeyToken="F728114EA5E8F3A7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BP61tI42eqGsra/OKh7a+BOxnX/gNdDssj+XYSBp1Bc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AVZ Server Status Control.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\AVZ_SSC_normal.ico" size="12779">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3vNbgWF7L7DVua+/H/n/iQXFv9Vp9DKmZ93e/k0cwzw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALTVAGON\usov.ia" issuerKeyHash="2d8414429fde5c185a0ed75159b214ba400b50ca" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MUBvw6YuV7PIun2aB8CarTn9XRAcoLOukocueGb+CdA=</DigestValue></Reference></SignedInfo><SignatureValue>e/J/R88ZEEMUpw3na9/Wwqs/V6jg9sv3sa9LOfLA0ueTAY/VzEZz6cgEkOMz7BGe0AUKjQTxGqLiR1iUeg+ehYe4YXmeqSkozuM2in90SNW+WcQI5IRM9EC3XGJcNZUnCjOAW6ab5bhCpeX60ClQxVEHscBOJyzZFASM1ONRgCw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qgtuFtXMHma5RaUy8c8dOpx/LvxiyqNVcOFYvsW+DZAqGiunePqbBM0hFzymOZJC/UPsFk7gCGtUN8ZahX6C6uqp4RTgXpr7i8zy6wIRPpcXS49Bk5WjCWPiqYAFJdJzt8HRkSXEX55vAvgVPD2wGOQyq2d5/2CRv/Wtgw6/5fE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d009fe66782e8792aeb3a01c105dfd39ad9ac0079a7dbac8b3572ea6c36f4031" Description="" Url=""><as:assemblyIdentity name="AVZ Server Status Control.exe" version="0.8.0.6" publicKeyToken="40b90e4451e7dc9e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALTVAGON\usov.ia</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5QApxcOgiNolcaXS3/EPep430jYKzSQfj3CxPf14fcA=</DigestValue></Reference></SignedInfo><SignatureValue>VDkcUxMoXp1or6AYemTsOBqauu/1LYudpDy9gyLiGBNti+Q5v6OZbPLLbHbx0AcBRKZOT5FlVyQVMJ0ODpjWJ5wkDt4R+CKMTZz1kl85kJ0PvVYfvtMoyFwwKADCO5TtvCX1kV/yNpPW8D+u47Hf25llRA/oBKVbaOEoj04JY28=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qgtuFtXMHma5RaUy8c8dOpx/LvxiyqNVcOFYvsW+DZAqGiunePqbBM0hFzymOZJC/UPsFk7gCGtUN8ZahX6C6uqp4RTgXpr7i8zy6wIRPpcXS49Bk5WjCWPiqYAFJdJzt8HRkSXEX55vAvgVPD2wGOQyq2d5/2CRv/Wtgw6/5fE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQZtVrWhLie7hLGj88OMZirTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBMAFQAVgBBAEcATwBOAFwAdQBzAG8AdgAuAGkAYTAeFw0xOTAyMjEwNTM5NThaFw0yMDAyMjExMTM5NThaMCsxKTAnBgNVBAMeIABBAEwAVABWAEEARwBPAE4AXAB1AHMAbwB2AC4AaQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqC24W1cweZrlFpTLxzx06nH8u/GLKo1Vw4Vi+xb4NkCoaK6d4+psEzSEXPKY5kkL9Q+wWTuAIa1Q3xlqFfoLq6qnhFOBemvuLzPLrAhE+lxdLj0GTlaMJY+KpgAUl0nO3wdGRJcRfnm8C+BU8PbAY5DKrZ3n/YJG/9a2DDr/l8QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGnfP28XWazdIqfHNwYJ7SisQg6rdh8fIeqv5yBf1Zjn6a8Di7FLy+pPlqG/9ysbPWCyQKRo9hXcn5JdpBy+GtUhijfFORLKyOhkyBzo0hhe6bqBEoVm+A4IKxQDC7yICw6XyxRF16W+ryu9kUBXTzIFcCdZt4n275wbs919omac</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
